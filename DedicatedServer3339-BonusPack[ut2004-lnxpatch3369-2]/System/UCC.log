@@ -1,0 +1,87 @@
+Log: Log file open, Sat Oct 16 17:42:31 2021
+Init: Name subsystem initialized
+Init: Version: 3369 (128.29)
+Init: Compiled: Dec 16 2005 13:23:47
+Init: Command line: DM-Monstertrap?game=SkaarjPack.Invasion?Mutator=XGame.MutQuadJump,XGame.MutRegen,XGame.MutZoomInstagib ini=target-practice.ini -nohomedir
+Init: (This is Linux patch version 3369.2)
+Init: Character set: Unicode
+Init: Base directory: /home/ubuntu/DedicatedServer3339-BonusPack[ut2004-lnxpatch3369-2]/System/
+Init: Ini:target-practice.ini   UserIni:User.ini
+Init: Build label:  Build UT2004_Build_[2005-11-23_16.22]
+Init: Object subsystem initialized
+Log: Executing Class Engine.ServerCommandlet
+Log: Browse: DM-Monstertrap?Name=Player?Class=Engine.Pawn?Character=Jakob?team=255?game=SkaarjPack.Invasion?Mutator=XGame.MutQuadJump,XGame.MutRegen,XGame.MutZoomInstagib
+Log: Collecting garbage
+Log: Purging garbage
+Log: Garbage: objects: 34720->34715; refs: 360075
+Log: Game class is 'Invasion'
+Log: Bringing Level DM-Monstertrap.myLevel up for play (20) appSeconds: 1.717489...
+ScriptLog: Mutators XGame.MutQuadJump,XGame.MutRegen,XGame.MutZoomInstagib
+ScriptLog: GameInfo::InitGame : bEnableStatLogging False
+ScriptLog: UdpServerQuery(crt): Port 7787 successfully bound.
+Log: Resolving master0.gamespy.com...
+ScriptLog: MasterServerUplink: MasterServerGameStats not found - stats uploading disabled.
+Log: Defaulting to false
+Log: Defaulting to false
+Log: Resolving ut2004master2.epicgames.com...
+WebAdmin: Loading Available Maps
+WebAdmin: Loading Game Types
+WebAdmin: xWebAdmin.UTServerAdmin Initialized on port 8000
+Log: MasterServerUplink: Resolved ut2004master2.epicgames.com as 199.255.40.171.
+Log: AInternetLink Resolve failed: Can't find host master0.gamespy.com (HOST_NOT_FOUND)
+ScriptLog: UdpGameSpyUplink: Failed to resolve master server address, aborting.
+Log: MasterServerUplink: Connection to ut2004master2.epicgames.com established.
+ScriptLog: Master server connection failed
+ScriptLog: Attempting to reconnect to master server!
+Log: Resolving ut2004master1.epicgames.com...
+Log: MasterServerUplink: Resolved ut2004master1.epicgames.com as 199.255.40.173.
+Log: MasterServerUplink: Connection to ut2004master1.epicgames.com established.
+Log: Couldn't open cdkey file.
+Log: Approval APPROVED
+Log: Master server requests heartbeat 0 with code 5128
+Log: Master server requests heartbeat 1 with code 5128
+Log: Master server requests heartbeat 2 with code 5128
+Log: Master server assigned our MatchID: 0
+NetComeGo: Open myLevel Sat Oct 16 17:43:04 2021 77.96.179.137:58470
+Log: Client netspeed is 10000
+ScriptLog: New Player electronoob3 id=282385d50693c2d02172d5a93ab5c70a
+ScriptLog: START MATCH
+ScriptLog: Master server connection failed
+ScriptLog: Attempting to reconnect to master server!
+Log: Resolving ut2004master2.epicgames.com...
+Log: MasterServerUplink: Resolved ut2004master2.epicgames.com as 199.255.40.171.
+Log: MasterServerUplink: Connection to ut2004master2.epicgames.com established.
+ScriptLog: Master server connection failed
+ScriptLog: Attempting to reconnect to master server!
+Log: Resolving ut2004master1.epicgames.com...
+Log: MasterServerUplink: Resolved ut2004master1.epicgames.com as 199.255.40.173.
+Log: MasterServerUplink: Connection to ut2004master1.epicgames.com established.
+Log: Approval APPROVED
+Log: Master server requests heartbeat 0 with code 2628
+Log: Master server requests heartbeat 1 with code 2628
+Log: Master server requests heartbeat 2 with code 2628
+Log: Master server assigned our MatchID: 0
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:016A) Accessed None 'Killer'
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:0172) Accessed None
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:017A) Accessed None
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:018F) Accessed None 'Killer'
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:0197) Accessed None
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:019F) Accessed None
+Warning: Invasion DM-Monstertrap.Invasion (Function SkaarjPack.Invasion.ScoreKill:01A7) Attempt to assign variable through None
+NetComeGo: Close TcpipConnection 77.96.179.137:58470 Sat Oct 16 17:53:00 2021
+Log: CTRL-C has been pressed.
+
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage
+Exit: Game engine shut down
+Log: (Karma): Level Karma Terminated.
+Exit: Socket shut down
+Log: Garbage: objects: 41689->0; refs: 360075
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Log: FileManager: Reading 0 GByte 58 MByte 69 KByte 297 Bytes from HD took 0.138616 seconds (0.138616 reading, 0.000000 seeking).
+Log: FileManager: 0.000000 seconds spent with misc. duties
+Uninitialized: Name subsystem shut down
+Uninitialized: Allocation checking disabled
+Uninitialized: Log file closed, Sat Oct 16 17:53:04 2021
